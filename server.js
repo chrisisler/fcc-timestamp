@@ -3,7 +3,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
+app.get('*', (req, res) => {
     const date = req.params[0].slice(1);
     const isUnix = {}.toString.call(date) === '[object Number]';
     const obj = Object.freeze({
