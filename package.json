@@ -1,0 +1,14 @@
+{
+  "name": "fcc-timestamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "node server.js"
+  },
+  "author": "Chris Isler <christopherisler1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
